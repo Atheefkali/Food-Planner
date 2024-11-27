@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #4efcff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #7f7eff;
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+main {
+  margin: 15px auto;
+
+  width: 600px;
+
+  border-radius: 10px;
+  text-align: center;
+}
+
+main > div > h1 {
+  font-size: 18px;
+  font-family: "Inria Sans", sans-serif;
+}
+main > div > p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Input_form {
+  padding: 5px 10px;
+  outline: none;
+  width: 95%;
+  margin-right: 15px;
+  border: 1px solid ghostwhite;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.Add_btn {
+  padding: 7px 10px;
+  background-color: #7f7eff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border-color: blanchedalmond;
+  cursor: pointer;
+}
+.Add_btn:hover {
+  background-color: rgb(75, 61, 61);
+}
+
+.input_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(29, 207, 216);
+}
+
+.food-container {
+  background-color: white;
+  margin: 20px 0;
+  list-style: none;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(29, 207, 216);
+}
+
+.Food-item {
+  font-family: "Times New Roman", Times, serif;
+  padding: 6px;
+  font-size: 15px;
+  border: 1px solid rgb(197, 193, 193);
+  border-radius: 4px;
+  margin: 10px 0;
+  text-align: left;
+  color: rgb(145, 133, 133);
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+.food-container .Food-item:hover {
+  background-color: #12ba8d;
+  color: white;
+  cursor: pointer;
+}
+
+.Alert {
+  padding: 10px 20px 10px 10px;
+  background-color: #29a746;
+  color: white;
+  font-size: 13px;
+  border-radius: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-left: 5px solid green;
+  font-weight: 500;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Alert button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: black;
+}
+
+/* .input-name-container { */
+/* padding: 10px;
+  outline: none;
+  font-size: 12px;
+  background-color: white;
+  transition: all 2s;
+  width: 100%;
+}
+.input-name-container.hide {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden; */
+/* } */
