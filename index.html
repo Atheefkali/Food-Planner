@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="./input.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
     <title>Food Planner</title>
@@ -11,8 +13,9 @@
 <body>
 
     <header>
-        FoodCook - planner🔥
-        <span style="padding: 2px 10px; font-size:15px;">Credits</span>
+        FoodCook -   planner🔥
+        <span  class="px-4 py-1 ml-10 rounded-md text-sm bg-violet-200 text-black h-10 cursor-pointer font-sans uppercase hover:bg-slate-700 hover:text-white"> <a href="credits.html">Credits</a></span>
+        <!-- style="padding: 2px 10px; font-size:15px;" -->
     </header>
    
 
@@ -28,7 +31,7 @@
         </div>
 
         <div class="input_container">
-            <input type="text" class="Input_form" id="Input_form" placeholder="i like to eat..." required>
+            <input type="text" class="Input_form" id="Input_form" placeholder="i like to eat..." required   >
             <button id="Add_btnn" class="Add_btn">ADD </button >  
         </div>
         <div>
@@ -57,6 +60,43 @@
                
             </ul>
             
+            
+            <!-- Event bubbling And Capturing -->
+            <!-- <form class="bg-blue-300 mb-1" >Form
+                <div class="bg-red-500 mb-1">Div</div>
+                <p class="bg-slate-600 text-white">hello</p>
+            </form> -->
+
+
+            <!-- <form class="bg-white my-2 p-2  ">
+
+            
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                </ul>
+                <!-- <div>
+                    <input class=" border  border-black uppercase border-1 text-center outline-none p-1 m-4" type="text" placeholder="type" >
+                </div>
+                <div>
+                    <label for="term">
+                       <input type="checkbox" id="terms" > Accept the <a href="#" class="text-blue-500 underline">term And Conditions</a>
+                    </label>
+                </div>
+                <button class="bg-blue-600 h-8 w-auto  p-1 m-4 rounded-sm text-white font-medium text-center mt-3 mb-3 hover:bg-slate-500  "> submit</button> -->
+                
+            <!-- </form> --> -->
+
+
+            <!-- End -->
             <!-- <button id="showbtn" style="margin: 5px 10px; width: 70px; height: 25px; background-color: darkcyan;font-weight: bold; border-radius: 5px; border: none; color: white;  ">Hide Div</button>
             <div class="input-name-container">
                 <input type="text" id="nameID" name="Fullname" placeholder="Fullname"
@@ -65,13 +105,13 @@
                 <button type="button" >submit</button>
             </div> -->
           
-        </div>
+        <!-- </div> -->
         
         
     </main>
     
 
     <script src="main.js"></script>
-    <script src="learning.js"></script>
+    <script src="learning.js" ></script>
 </body>
 </html>
